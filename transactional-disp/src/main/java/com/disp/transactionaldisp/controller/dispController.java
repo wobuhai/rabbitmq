@@ -30,7 +30,7 @@ public class dispController {
         disp.setUserid(1);
         dispService.save(disp);
         //模拟异常
-        int i=1/0;
+        System.out.println(1/0);
         return "配送订单ok";
     }
 }
